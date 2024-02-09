@@ -41,3 +41,52 @@
     border-radius:55%;
     background-color: blanchedalmond; */
   }
+
+  /* loader  */
+  .x1{
+    animation:x1 1s infinite;
+  }
+  @keyframes x1{
+    0%{
+      opacity: 1;
+      font-size: xx-small;
+    }
+    50%{
+      opacity: 0.5;
+      
+    }
+    100%{
+      opacity: 0.5;
+    }
+  }
+
+  .x2{
+    animation:x2 1s infinite;
+  }
+  @keyframes x2{
+    0%{
+      opacity: 0.5;
+    }
+    50%{
+      opacity: 1;
+      font-size: xx-small;
+    }
+    100%{
+      opacity: 0.5;
+    }
+  }
+  .x3{
+    animation:x3 1s infinite;
+  }
+  @keyframes x3{
+    0%{
+      opacity: 0.5;
+    }
+    50%{
+      opacity: 0.5;
+    }
+    100%{
+      opacity: 1;
+      font-size: xx-small;
+    }
+  }
