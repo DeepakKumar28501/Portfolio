@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-const portfolio = new mongoose.Schema(
+const introSchema = new mongoose.Schema(
   {
     welcomeText: {
       type: String,
@@ -130,7 +130,7 @@ const contactSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-export const Portfolio = mongoose.model("Porftfolio", portfolio);
+export const Intro = mongoose.model("Intro", introSchema);
 export const Project = mongoose.model("Project", projectSchema);
 export const About = mongoose.model("About", aboutSchema);
 export const Experience = mongoose.model("Experience", experienceSchema);

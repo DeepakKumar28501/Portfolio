@@ -18,7 +18,7 @@ console.log("url",process.env.MONGODB_URL)
         console.log("MONGODB connection Failed in db/index",error);
         process.exit(1);// its a mode process failure
     }   
-    coe.log("successfully");
+    // coe.log("successfully");
 }
 
 // mongoose.connect(`${process.env.MONGODB_URL}/${DB_NAME}`);
